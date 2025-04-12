@@ -8,7 +8,7 @@ import { toast } from 'sonner'
 import ReCAPTCHA from 'react-google-recaptcha'
 
 const Register = () => {
-
+  console.log(import.meta.env.VITE_BACKEND_URL)
   const [registerUser,registerUserResponse] = useRegisterUserMutation()
 
   const navigate  = useNavigate()
