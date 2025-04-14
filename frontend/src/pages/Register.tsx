@@ -100,7 +100,6 @@ const Register = () => {
               </div>
               <div className="mb-3 py-1">
                 <Button disabled={!values.token} loading={registerUserResponse.isLoading} raised type='submit'   className='w-full bg-blue-400 text-white py-3 px-2 flex items-center justify-center'>Submit
-
                 </Button>
               </div>
               <div className="mb-3 py-1 flex items-center justify-end">
